@@ -1,0 +1,61 @@
+body{
+    font-family: 'Signika Negative', sans-serif;
+}
+h2{
+    font-weight: 300;
+}
+p{
+    font-weight: 300; 
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background-color: rgb(238, 238, 238);
+    color: #333;
+    border: 1px solid #333 ;
+    margin: 0 auto ;
+    padding: 10px ;
+    border-radius: 5px ;
+    box-shadow: 10px 10px 10px #888 ;
+    width: 23%;
+    box-sizing: border-box;
+}
+.precio{
+    font-size: 50px;
+    color: #00dac7;
+}
+.boton-precio{
+    background-color: salmon;
+    display: block;
+    padding: 10px ;
+    color: #fff;
+    text-decoration-line: none;
+    border-radius: 3px ;
+    margin-bottom: 10px ;
+}
+.boton-precio:hover{
+    background-color: rgb(252, 99, 82);
+}
+@media (max-width: 1070px) {
+    .columna{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 712px) {
+    .columna{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
